@@ -1,0 +1,399 @@
+body {
+  margin:0;
+  font-family:'Montserrat', sans-serif;
+  font-size:1rem;
+  font-weight:400;
+  line-height:1.5;
+  color:#212529;
+  text-align:left;
+  background-color:hsl(223, 90%, 86%);
+}
+
+.navbar {
+  position:relative;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  -ms-flex-align:center;
+  align-items:center;
+  -ms-flex-pack:justify;
+  justify-content:space-between;
+  padding:.5rem 1rem;
+  background-color:rgb(251,251,251);
+}
+
+.nav-link:hover {
+  background-color:#d5d5d5 !important;
+  color:rgb(224,224,224);
+}
+
+.nav-link:hover {
+  background-color:rgb(15,27,32);
+  color:rgb(224,224,224);
+}
+
+.nav-link:hover {
+  background-color:rgb(15,27,32);
+  color:rgb(224,224,224);
+}
+
+.img-fluid.img-logo {
+  width:50px;
+  padding-right:20px;
+}
+
+.navbar-expand-md .navbar-nav {
+  -ms-flex-direction:row;
+  flex-direction:row;
+  font-size:18px;
+  font-weight:500 !important;
+}
+
+.navbar-light .navbar-brand {
+  font-weight:600;
+  font-size:20px;
+}
+
+#area-atuacao {
+  width:100%;
+  height:100%;
+  background-color:hsl(198, 32%, 11%);
+}
+
+.d-block {
+  display:block!important;
+  height:480px;
+}
+
+#footer {
+  width:100%;
+  height:80px;
+  background-color:rgb(251,251,251);
+}
+
+@media (min-width: 300px) {
+  .social-icons {
+    width:50%;
+    margin:0px auto;
+    display:flex;
+    justify-content:space-around;
+    margin-top:25px;
+  }
+}
+
+.social-icons {
+  width:40%;
+  margin:0px auto;
+  display:flex;
+  justify-content:space-around;
+  margin-top:25px;
+  padding-top:5px;
+}
+
+@media (min-width: 300px) {
+  .fa {
+    font-size:3em;
+    margin-right:10px;
+  }
+}
+
+.fa {
+  font-size:3em;
+  padding-top:10px;
+}
+
+.contact-info {
+  float:left;
+  padding-bottom:15px;
+  margin-right:20px;
+}
+
+dl, ol, ul {
+  margin-top:0;
+  margin-bottom:1rem;
+  list-style-type:none;
+}
+
+.icon-atuacao {
+  background-color:#d5d5d5;
+  width:120px;
+  height:120px;
+  border-radius:25px;
+  display:block;
+  margin:0px auto;
+}
+
+.p-atuacao {
+  color:#fff;
+}
+
+. {
+}
+
+. {
+}
+
+.heading-atuacao {
+  color:#fff;
+}
+
+.img-atuacao {
+  margin:0px auto;
+  margin-top:40px;
+}
+
+.div-p-atuacao {
+  margin-left:80px;
+  margin-right:80px;
+}
+
+.col-md-6 {
+}
+
+.heading-atuacao.text-center {
+  margin-top:20px;
+}
+
+.description {
+  width:100px;
+  height:200px;
+  background-color:#fff;
+}
+
+.carousel {
+  position:relative;
+  height:100%;
+}
+
+@media (min-width: 768px) {
+  .carousel-caption .caption-1 {
+    position:absolute;
+    right:15%;
+    bottom:150px;
+    left:15%;
+    z-index:10;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:#fff;
+    text-align:center;
+    width:35%;
+    background-color:#284450;
+    height:250px;
+    opacity:0.8;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-caption .caption-1 {
+    position:absolute;
+    right:15%;
+    bottom:150px;
+    left:15%;
+    z-index:10;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:#fff;
+    text-align:center;
+    width:30%;
+    background-color:#284450;
+    height:250px;
+    opacity:0.8;
+  }
+}
+
+.p-card {
+  margin:8px;
+}
+
+@media (min-width: 300px) {
+  .carousel-caption.caption-1 {
+    bottom:150px;
+    background-color:#284450;
+    opacity:0.7;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-caption.caption-1 {
+    width:30%;
+    right:560px;
+    bottom:150px;
+    background-color:#284450;
+    opacity:0.7;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-caption.caption-1 {
+    width:40%;
+    right:360px;
+    bottom:150px;
+    background-color:#284450;
+    opacity:0.7;
+  }
+}
+
+@media (min-width: 576px) {
+  .carousel-caption.caption-1 {
+    right:260px;
+    bottom:150px;
+    background-color:#284450;
+    opacity:0.7;
+  }
+}
+
+.carousel-caption caption-2.1 {
+  bottom:40%;
+}
+
+#caption2 {
+  background-color:#284450;
+  opacity:0.8;
+  bottom:25%;
+  margin:5px;
+}
+
+#caption3 {
+  background-color:#284450;
+  bottom:30%;
+  opacity:0.8;
+  left:200px;
+}
+
+@media (min-width: 300px) {
+  #caption3 {
+    background-color:#284450;
+    bottom:30%;
+    opacity:0.8;
+    width:80%;
+    left:35px;
+  }
+}
+
+@media (min-width: 576px) {
+  #caption3 {
+    background-color:#284450;
+    bottom:30%;
+    opacity:0.8;
+    width:60%;
+    left:120px;
+  }
+}
+
+@media (min-width: 768px) {
+  #caption3 {
+    background-color:#284450;
+    bottom:30%;
+    opacity:0.8;
+    width:60%;
+    left:170px;
+  }
+}
+
+@media (min-width: 992px) {
+  #caption3 {
+    background-color:#284450;
+    bottom:30%;
+    opacity:0.8;
+    width:60%;
+    left:200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #caption3 {
+    background-color:#284450;
+    bottom:30%;
+    opacity:0.8;
+    width:60%;
+    left:200px;
+  }
+}
+
+.banner-atuacao {
+  width:100%;
+  height:450px;
+  background:url(../../assets/img/rawpixel-351765-unsplash.jpg) no-repeat center;
+  background-size:cover;
+  position:relative;
+  display:table;
+  background-attachment:local;
+}
+
+.banner-contato {
+  width:100%;
+  height:450px;
+  background:url(../../assets/img/andrew-neel-308138-unsplash.jpg) no-repeat center;
+  background-size:cover;
+  position:relative;
+  display:table;
+  background-attachment:local;
+}
+
+.banner-profissionais {
+  width:100%;
+  height:450px;
+  background:url(../../assets/img/woman_working.jpg) no-repeat center;
+  background-size:cover;
+  position:relative;
+  display:table;
+  background-attachment:local;
+}
+
+#description {
+  background-color:#d5d5d5;
+  height:100%;
+}
+
+.h1, h1 {
+  font-size:2.3rem;
+}
+
+.text-center.areas-atuacao {
+  margin-bottom:40px;
+  font-weight:100;
+  background-color:#284450;
+  opacity:0.8;
+  width:300px;
+  color:white;
+}
+
+.text-center.profissionais {
+  margin-bottom:40px;
+  font-weight:100;
+  background-color:#284450;
+  opacity:0.8;
+  width:250px;
+  color:white;
+}
+
+#banner-background {
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+}
+
+.text-center.heading-area {
+  margin-top:30px;
+  /*background-color:#284450;*/
+  opacity:0.8;
+  color:#284450;
+}
+
+.lead.text-center.p-area {
+  width:80%;
+  margin:0px auto;
+}
+
+#contato {
+  width:100%;
+  height:560px;
+  padding-top:80px;
+  margin-bottom:80px;
+}
+
+#formdiv {
+  background-color:white;
+}
+
